@@ -5,6 +5,19 @@
 Читает файлы с оценками, вычисляет средние баллы,
 определяет лучшего и худшего ученика, генерирует отчет и сохраняет его в файл.
 
+## :wrench: Процесс разработки, особенности и трудности
+
+### Было изучено:
+- Java:  Новый синтаксис, новый код, новые возможности.
+- Jar:  Создание jar-файла для более удобного запуска программы.
+
+### Трудности возникшие в работе
+Самое трудное, когда понимаешь логику, но не знаешь синтаксис. Пилотный выпуск Java :airplane:
+Еще фигурные скобки и точка с запятой.
+
+## :computer: Стек технологий
+- ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
 
 ## :page_with_curl: Как воспользоваться проектом
 ### Запуск
@@ -18,8 +31,13 @@ $OutputEncoding = [System.Text.Encoding]::UTF8
 ```PowerShell
 java -jar "ваш путь до jar-файла"\javajar.jar
 ```
-либо через готовый bat-файл
-
+> 
+> Возможно заработает только с `java -jar "ваш путь до jar-файла"\javajar.jar`, но у меня не вышло :alien:
+> 
+либо через готовый [bat-файл](https://github.com/Tiaki026/CalcStudentGrade/blob/main/out/start.bat)
+> 
+> Самое простое решение - запустил, получил, забыл
+> 
 указываем путь до папки 
 ```
 Введите путь к папке ➡️:e:/classroom
@@ -97,3 +115,10 @@ java -jar "ваш путь до jar-файла"\javajar.jar
   ```
 
 </details>
+
+## Автор:
+  - [Колотиков Евгений](https://github.com/Tiaki026)
+## 
+
+
+  ## [:top: Путь наверх :top:](https://github.com/Tiaki026/CalcStudentGrade?tab=readme-ov-file#calcstudentgrade)
